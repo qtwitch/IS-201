@@ -380,7 +380,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+ -webkit-appearance: button; 
+
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -4148,7 +4149,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11698,3 +11699,4 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
